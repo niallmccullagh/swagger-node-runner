@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - bagpipes > lodash:
+        patched: '2018-07-08T08:29:59.876Z'
+    - bagpipes > machinepack-http > lodash:
+        patched: '2018-07-08T08:29:59.876Z'
+    - bagpipes > machinepack-http > machine > lodash:
+        patched: '2018-07-08T08:29:59.876Z'
+    - bagpipes > machinepack-http > machine > rttc > lodash:
+        patched: '2018-07-08T08:29:59.876Z'
+    - bagpipes > machinepack-http > machine > switchback > lodash:
+        patched: '2018-07-08T08:29:59.876Z'
+    - bagpipes > machinepack-http > machinepack-urls > lodash:
+        patched: '2018-07-08T08:29:59.876Z'
+    - bagpipes > machinepack-http > machinepack-urls > machine > lodash:
+        patched: '2018-07-08T08:29:59.876Z'
+    - bagpipes > machinepack-http > machinepack-urls > machine > rttc > lodash:
+        patched: '2018-07-08T08:29:59.876Z'
